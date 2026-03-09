@@ -1,0 +1,46 @@
+{
+  "name": "didtheychange-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for querying policy and terms of service changes at 100+ companies via DidTheyChange",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "didtheychange-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "terms-of-service",
+    "privacy-policy",
+    "policy-changes",
+    "didtheychange",
+    "ai-tools",
+    "claude"
+  ],
+  "author": "heathen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoserLab/didtheychange-mcp.git"
+  },
+  "homepage": "https://didtheychange.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.7.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
