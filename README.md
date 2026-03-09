@@ -85,6 +85,10 @@ Get full details of a specific change by ID (returned from `search_changes`).
 - Public feed: [didtheychange.com/feed](https://didtheychange.com/feed)
 - API docs: [didtheychange.com/llms.txt](https://didtheychange.com/llms.txt)
 
+## Author
+
+Built by [heathen](https://github.com/LoserLab) on [Mirra](https://x.com/mirra)
+
 ## License
 
 MIT
