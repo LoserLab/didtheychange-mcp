@@ -87,7 +87,7 @@ Get full details of a specific change by ID (returned from `search_changes`).
 
 ## Author
 
-Built by [heathen](https://github.com/LoserLab) on [Mirra](https://x.com/mirra)
+Built by [heathen](https://x.com/heathenft) on [Mirra](https://x.com/mirra)
 
 ## License
 
